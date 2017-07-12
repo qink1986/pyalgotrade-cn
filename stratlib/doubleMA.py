@@ -4,7 +4,10 @@ Created on Tue Nov 03 13:06:56 2015
 
 @author: Eunice
 """
-
+if __name__ == '__main__':
+    import sys
+    sys.path.append("..")    
+    
 from pyalgotrade.broker.fillstrategy import DefaultStrategy
 from pyalgotrade.broker.backtesting import TradePercentage
 from pyalgotrade import strategy
